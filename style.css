@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+}
+/* 
+a {
+  text-decoration: none;
+  color: #555;
+} */
+.header {
+  background-image: url(images/Ga.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+.heading-1 .register {
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  text-decoration: none;
+  font-size: 25px;
+  border: 1px solid red;
+}
+
+.register:hover {
+  background: #c51111;
+}
+
+nav a {
+  color: #fff;
+}
+
+.heading-1 h1 {
+  font-size: 6rem;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+}
+
+.section-1 {
+  color: #fff;
+  /* width: 100vw; */
+  text-align: center;
+  height: 100vh;
+}
+
+.section-2 {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  color: #fff;
+}
+
+.header-2 {
+  background-image: url(images/7.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+/* .header-2::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+} */
+
+.about {
+  height: 100%;
+  width: 100%;
+  border: 1px white solid;
+}
+
+.header-3 {
+  background-image: url(images/wp7912801-crewmate-wallpapers.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed;
+}
+.header-3::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+.footer {
+  background-color: #000;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+  color: #fff;
+}
+
+.header-4 {
+  background-color: green;
+}
+/* .mates img {
+  width: 80px;
+  animation: imposter 2s linear infinite;
+}
+
+.mates {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+} */
+
+/* @keyframes imposter {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-90vh);
+  }
+}
+.mates img:nth-child(1) {
+  animation-delay: 2s;
+  transform: rotate(0deg);
+}
+.mates img:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.mates img:nth-child(3) {
+  animation-delay: 3s;
+}
+
+.mates img:nth-child(4) {
+  animation-delay: 4.5s;
+} */
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  max-width: 100%;
+  margin: 70px 50px 50px;
+}
