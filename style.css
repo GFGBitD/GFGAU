@@ -14,10 +14,10 @@ a {
   color: #555;
 } */
 .header {
-  background-image: url(images/Ga.jpg);
+  background-image: url(/images/one.jpg);
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: contain;
+  /* background-attachment: fixed; */
   width: 100%;
   height: 100%;
   position: relative;
@@ -76,15 +76,15 @@ nav a {
 }
 
 .header-2 {
-  background-image: url(images/7.jpg);
+  background-image: url(/images/7.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 100%;
   position: relative;
   z-index: 1;
 }
-/* .header-2::after {
+.header-2::after {
   content: "";
   position: absolute;
   background-color: black;
@@ -94,16 +94,20 @@ nav a {
   height: 100%;
   opacity: 0.5;
   z-index: -1;
-} */
+}
 
 .about {
   height: 100%;
   width: 100%;
   border: 1px white solid;
+  padding-top: 15px;
 }
-
+.about h1,
+p {
+  padding: 20px;
+}
 .header-3 {
-  background-image: url(images/wp7912801-crewmate-wallpapers.jpg);
+  background-image: url(images/two.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
