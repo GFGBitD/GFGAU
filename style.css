@@ -14,7 +14,7 @@ a {
   color: #555;
 } */
 .header {
-  background-image: url(/images/one.jpg);
+  background-image: url(images/one.jpg);
   background-position: center;
   background-size: contain;
   /* background-attachment: fixed; */
@@ -76,7 +76,7 @@ nav a {
 }
 
 .header-2 {
-  background-image: url(/images/7.jpg);
+  background-image: url(images/7.jpg);
   background-position: center;
   background-size: contain;
   width: 100%;
