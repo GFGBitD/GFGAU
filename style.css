@@ -5,14 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* body {
+
+body {
   scroll-behavior: smooth;
-} */
-/* 
-a {
-  text-decoration: none;
-  color: #555;
-} */
+}
+
 .header {
   background-image: url(images/one.jpg);
   background-position: center;
