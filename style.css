@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
 
 * {
   margin: 0;
@@ -10,10 +11,25 @@ body {
   scroll-behavior: smooth;
 }
 
-.header {
-  background-image: url(images/crew.jpg);
+i {
+  color: #fff;
+}
+.navbar-dark {
+  background-color: #000;
+}
+.header,
+.header-2,
+.header-3,
+.header-4 {
+  background-image: url(images/one.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+}
+
+.header {
+  /* background-image: url(images/crew.jpg); */
+  /* background-position: center;
+  background-size: cover; */
   /* background-attachment: fixed; */
   /* width: 100vw; */
   height: 100vh;
@@ -73,9 +89,8 @@ nav a {
 }
 
 .header-2 {
-  background-image: url(images/one.jpg);
-  background-position: center;
-  background-size: contain;
+  /* background-image: url(images/one.jpg); */
+
   width: 100%;
   height: 100%;
   position: relative;
@@ -104,9 +119,9 @@ p {
   padding: 20px;
 }
 .header-3 {
-  background-image: url(images/two.jpg);
-  background-position: center;
-  background-size: cover;
+  /* background-image: url(images/two.jpg); */
+  /* background-position: center;
+  background-size: cover; */
   width: 100%;
   height: 100%;
   position: relative;
@@ -134,50 +149,6 @@ p {
 .header-4 {
   background-color: green;
 }
-/* .mates img {
-  width: 80px;
-  animation: imposter 2s linear infinite;
-}
-
-.mates {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-} */
-
-/* @keyframes imposter {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-90vh);
-  }
-}
-.mates img:nth-child(1) {
-  animation-delay: 2s;
-  transform: rotate(0deg);
-}
-.mates img:nth-child(2) {
-  animation-delay: 1s;
-}
-
-.mates img:nth-child(3) {
-  animation-delay: 3s;
-}
-
-.mates img:nth-child(4) {
-  animation-delay: 4.5s;
-} */
 
 #press {
   padding-bottom: 3%;
@@ -193,15 +164,112 @@ p {
   text-align: center;
 }
 
-/* .social-icon {
-  margin: 10px 20px;
-} */
-#footer {
-  text-align: center;
+.footer {
   background-color: #000;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+/* .footer a,
+i {
+  color: #fff;
+} */
+
+footer a {
+  text-decoration: none;
   color: #fff;
 }
 
-#footer .list-inline a {
+footer a:hover {
+  color: #c51111;
+}
+footer i:hover {
+  color: #c51111;
+}
+
+.team4 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+/* .navbar-dark {
+  background-color: #000;
+} */
+
+.heade-team h1,
+.heade-team h2,
+.heade-team h3,
+.heade-team h4,
+.heade-team h5,
+.heade-team h6 {
+  color: #fff;
+}
+
+.heade-team .font-weight-medium {
+  font-weight: 500;
+}
+
+.heade-team h5 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.heade-team .subtitle {
+  color: #fff;
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.heade-team ul li a {
+  color: #fff;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.heade-team ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+  color: #c51111;
+}
+
+.heade-team {
+  background-image: url(images/crew.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  padding-top: 50px;
+  color: #fff;
+}
+.heade-team::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+.heade-team .list-inline-item i {
+  color: #fff;
+}
+.Heading-team,
+h1 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.members,
+p {
   color: #fff;
 }
