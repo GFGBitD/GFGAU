@@ -158,18 +158,31 @@ p {
 }
 
 #press {
+  margin: auto;
   padding-bottom: 3%;
 }
 
 .press-logo {
   max-width: 100%;
   margin: 40px 20px 50px;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
 }
-
+.press-logo:hover {
+  filter: grayscale(0%);
+}
 #press h1 {
   margin: 30px;
   text-align: center;
   color: #000;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+#press h1:hover {
+  color: #c51111;
+}
+#press img {
 }
 
 .footer {
