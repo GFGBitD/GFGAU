@@ -121,7 +121,9 @@ p {
 }
 
 .among-us {
-  background-color: #000;
+  background-image: url(backgrounds/one.jpg);
+  background-position: center;
+  background-size: contain;
   /* height: 100vh; */
   color: #fff;
 }
