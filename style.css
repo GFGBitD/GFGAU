@@ -74,10 +74,10 @@ i {
 .about {
   height: 100%;
   width: 100%;
-  border: 1px black solid;
+  border: 1px #fff solid;
   padding: 20px;
   text-align: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .header {
@@ -97,7 +97,7 @@ i {
 
 .footer {
   background: #000;
-  margin: 50px auto 0px auto;
+  margin: 0px auto 0px auto;
 
   padding: 20px 0px 20px 0px;
   color: #fff;
@@ -120,8 +120,8 @@ p {
   margin: 16px;
 }
 
-/* .among-us {
-  background-image: url(/backgrounds/two.jpg);
-  background-position: center;
-  background-size: cover;
-} */
+.among-us {
+  background-color: #000;
+  /* height: 100vh; */
+  color: #fff;
+}
