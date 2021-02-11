@@ -7,37 +7,29 @@
   box-sizing: border-box;
 }
 
-body {
-  scroll-behavior: smooth;
-}
-
 i {
   color: #fff;
 }
 
+/* NAVBAR */
 .navbar-dark {
-  background-color: #000;
-}
-.header,
-.header-2,
-.header-3,
-.header-4 {
-  background-image: url(images/one.jpg);
-  background-position: center;
-  background-size: contain;
+  background: #000;
+  color: #fff;
 }
 
-.header {
-  /* background-image: url(images/crew.jpg); */
-  /* background-position: center;
-  background-size: cover; */
-  /* background-attachment: fixed; */
-  /* width: 100vw; */
+/* MAIN */
+.main {
+  background-image: url(backgrounds/one.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
+  color: #fff;
   position: relative;
   z-index: 1;
 }
-.header::after {
+
+.main::after {
   content: "";
   position: absolute;
   background-color: black;
@@ -45,130 +37,70 @@ i {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.7;
+  opacity: 0.4;
   z-index: -1;
 }
-.heading-2 .register {
-  display: inline-block;
-  background: transparent;
-  color: #fff;
-  padding: 8px 30px;
-  margin: 30px 0;
-  border-radius: 30px;
-  transition: background 0.5s;
-  text-decoration: none;
-  font-size: 25px;
-  border: 1px solid red;
-}
 
-.register:hover {
-  background: #c51111;
+/* HEADER */
+.header {
+  margin: 20px;
+  text-align: center;
+  height: 100vh;
 }
-
-nav a {
-  color: #fff;
-}
-
-.heading-1 h1 {
-  font-size: 6rem;
+.header h1 {
   font-family: "Amatic SC", cursive;
+  font-size: 6rem;
   font-weight: 700;
 }
 
-.about h1 {
-  font-size: 4rem;
-  font-family: "Amatic SC", cursive;
-  font-weight: 300;
-}
-
-.section-1 {
+/* REGISTER-BTN */
+.header .register-btn {
+  display: inline-block;
+  background: transparent;
   color: #fff;
-
-  text-align: center;
-  height: 100vh;
+  padding: 20px 30px;
+  margin-bottom: 200px;
+  border-radius: 40px;
+  transition: background 0.5s;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid red;
 }
 
-.section-2 {
-  height: 100vh;
-  width: 100vw;
-  text-align: center;
-  color: #fff;
-}
-
-.header-2 {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: 1;
-}
-.header-2::after {
-  content: "";
-  position: absolute;
-  background-color: black;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
-  z-index: -1;
+.header .register-btn:hover {
+  background: #c51111;
 }
 
 .about {
   height: 100%;
   width: 100%;
-  border: 1px white solid;
-  /* padding: 50px; */
+  border: 1px black solid;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
-.about h1,
-p {
+
+.header {
+  margin-bottom: 70px;
+}
+
+.about h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 3rem;
+  font-weight: 300;
   padding: 10px;
 }
-.header-3 {
-  /* background-image: url(images/two.jpg); */
-  /* background-position: center;
-  background-size: cover; */
-  width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: 1;
-  /* background-attachment: fixed; */
+
+.about p {
+  padding: 10px;
 }
-.header-3::after {
-  content: "";
-  position: absolute;
-  background-color: black;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
-  z-index: -1;
-}
+
 .footer {
-  background-color: #000;
-  margin: 0px auto;
+  background: #000;
+  margin: 50px auto 0px auto;
+
   padding: 20px 0px 20px 0px;
   color: #fff;
-}
-
-.header-4 {
-  background-color: green;
-}
-
-#press h1 {
-  text-align: center;
-  color: #000;
-  cursor: pointer;
-  transition: color 0.5s;
-}
-#press h1:hover {
-  color: #c51111;
-}
-
-.footer {
-  background-color: #000;
-  margin: 0px auto;
-  padding: 20px 0px 20px 0px;
 }
 
 footer a {
@@ -183,89 +115,13 @@ footer i:hover {
   color: #c51111;
 }
 
-.team4 {
-  font-family: "Montserrat", sans-serif;
-  color: #8d97ad;
-  font-weight: 300;
-  margin-top: 20px;
+footer h5,
+p {
+  margin: 16px;
 }
 
-/* .navbar-dark {
-  background-color: #000;
-} */
-
-.heade-team h1,
-.heade-team h2,
-.heade-team h3,
-.heade-team h4,
-.heade-team h5,
-.heade-team h6 {
-  color: #fff;
-}
-
-.heade-team .font-weight-medium {
-  font-weight: 500;
-}
-
-.heade-team h5 {
-  line-height: 22px;
-  font-size: 18px;
-}
-
-.heade-team .subtitle {
-  color: #fff;
-  line-height: 24px;
-  font-size: 13px;
-}
-
-.heade-team ul li a {
-  color: #fff;
-  padding-right: 15px;
-  -webkit-transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
-}
-
-.heade-team ul li :hover {
-  -webkit-transform: translate3d(0px, -5px, 0px);
-  transform: translate3d(0px, -5px, 0px);
-  color: #c51111;
-}
-
-.heade-team {
-  background-image: url(images/crew.jpg);
+/* .among-us {
+  background-image: url(/backgrounds/two.jpg);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: 1;
-  padding-top: 50px;
-  color: #fff;
-}
-.heade-team::after {
-  content: "";
-  position: absolute;
-  background-color: black;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  z-index: -1;
-}
-.heade-team .list-inline-item i {
-  color: #fff;
-}
-.Heading-team,
-h1 {
-  color: #fff;
-  text-align: center;
-  padding-bottom: 50px;
-}
-
-.members,
-p {
-  color: #fff;
-}
+} */

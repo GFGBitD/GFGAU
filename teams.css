@@ -1,0 +1,49 @@
+.team-main {
+  background-image: url(/backgrounds/7.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.heade-team h1,
+.heade-team h2,
+.heade-team h3,
+.heade-team h4,
+.heade-team h5,
+.heade-team h6 {
+  color: #fff;
+}
+
+.heade-team .font-weight-medium {
+  font-weight: 500;
+}
+
+.heade-team h5 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.heade-team .subtitle {
+  color: #fff;
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.heade-team ul li a {
+  color: #fff;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.heade-team ul li :hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+  color: #c51111;
+}
+
+.heading-team,
+h1 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+}
